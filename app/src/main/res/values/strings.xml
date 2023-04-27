@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Blackjack</string>
+    <string name="title_activity_scores">ScoresActivity</string>
+    <string name="title_activity_blackjack_game">BlackjackGameActivity</string>
+    <string-array name="rules">
+        <item>El objetivo del juego es vencer al crupier obteniendo una puntuación más cercana a 21 puntos sin pasarse.</item>
+        <item>Cada carta tiene un valor: las cartas numéricas valen su número, las cartas J, Q, y K valen 10 puntos, y el As puede valer 1 u 11 puntos dependiendo de la mano del jugador.</item>
+        <item>Cada jugador recibe dos cartas boca arriba y el crupier recibe una carta boca arriba y otra boca abajo.</item>
+        <item>Los jugadores pueden decidir tomar más cartas ("hit") para mejorar su puntuación, pero si se pasan de 21 puntos pierden automáticamente.</item>
+        <item>Si el jugador está satisfecho con su mano, puede "quedarse" y no tomar más cartas.</item>
+        <item>Una vez que todos los jugadores hayan decidido plantarse o pasarse, el crupier revela su segunda carta y toma cartas adicionales si su mano es menor o igual a 16 puntos.</item>
+        <item>Si el crupier se pasa de 21 puntos, todos los jugadores que no se han pasado ganan automáticamente.</item>
+        <item>Si la puntuación del jugador es más cercana a 21 que la del crupier, el jugador gana el doble de su apuesta original. Si la puntuación del crupier es más cercana a 21, el jugador pierde su apuesta.</item>
+        <item>Si el jugador y el crupier tienen la misma puntuación, se considera un "empate" y el jugador recupera su apuesta original.</item>
+    </string-array>
+    <string name="title_activity_instructions">InstructionsActivity</string>
+</resources>
